@@ -12,25 +12,24 @@ export const HomeModule = () => {
      return (
           <div className="w-full max-h-full">
                {/* <div className="w-full h-screen"> */}
-               <div className="w-full sm:h-screen" style={{}}>
-                    <div className="container mx-auto">
-                         <div className="flex items-center flex-wrap-reverse justify-start px-8 sm:px-14 py-10 sm:py-52">
+               <div className="w-full sm:h-auto">
+                    <div className="">
+                         <div className="flex items-start flex-wrap-reverse justify-start px-8 sm:px-14 py-10 sm:py-52 gap-10">
                               <div className="flex-1">
                                    <div className="animate__animated animate__fadeInUp animate__delay-0.8s">
                                         <h1 className="text-blue-950 text-4xl sm:text-7xl tracking-wide sm:tracking-wider font-bold leading-tight mb-4 sm:mb-6">
-                                             Empowering Health, <br />
-                                             Inspiring Lives
+                                             जीवनाची खरी संपत्ती हीच असते जी आपण इतरांसाठी खर्च करतो.
                                         </h1>
-                                        <p className="text-blue-950 text-sm sm:text-base tracking-wider font-light leading-relaxed mb-12">
-                                             Empowering Health, Inspiring Lives Together, We Create a Stronger Tomorrow
-                                        </p>
+                                        <blockquote className="text-emerald-500 font-bold text-right">
+                                             - Quote by महात्मा बुद्ध
+                                        </blockquote>
                                    </div>
                                    <div className="flex items-center">
                                         <div className="sm:inline hidden">
                                              <Button
-                                                  value="Donate Now"
+                                                  value="About Us"
                                                   styles="animate__animated animate__fadeInLeft animate__delay-1s"
-                                                  onClick={() => navigate(ROUTES.DONATION)}
+                                                  onClick={() => navigate(ROUTES.ABOUT)}
                                              />
                                              <Button
                                                   styles="animate__animated animate__fadeInRight animate__delay-1s"
@@ -76,11 +75,7 @@ export const HomeModule = () => {
                          </div>
                     </div>
                </div>
-               <ProgramsModule
-                    tagLine="Our Cases You Can See"
-                    heading="Explore Our Latest Programs That We Works"
-                    isHomePage
-               />
+               <ProgramsModule tagLine="आमची केसेस तुम्ही पाहू शकता" heading="आमचे नवीनतम कार्यक्रम" isHomePage />
                <AboutModule />
                <MissionModule />
           </div>

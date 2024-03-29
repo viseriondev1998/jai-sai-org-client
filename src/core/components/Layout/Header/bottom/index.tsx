@@ -1,6 +1,5 @@
 import React, { FC, useState } from "react";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { IHeaderLink } from "../../../../interface";
@@ -13,7 +12,6 @@ const STYLES = LAYOUT_STYLES;
 
 export const HeaderBottom: FC = () => {
      const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-     const navigate = useNavigate();
 
      const links: IHeaderLink[] = [
           {
@@ -93,7 +91,7 @@ export const HeaderBottom: FC = () => {
                                              </li>
                                         ))}
                                    </ul>
-                                   <div>
+                                   {/* <div>
                                         <div className="sm:inline-block hidden">
                                              <Button
                                                   value="Donate Now"
@@ -110,7 +108,7 @@ export const HeaderBottom: FC = () => {
                                                   sm
                                              />
                                         </div>
-                                   </div>
+                                   </div> */}
                               </div>
                          </div>
                     </div>

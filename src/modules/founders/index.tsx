@@ -15,16 +15,7 @@ export const FoundersModule: FC = () => {
                          </h1>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-6 sm:gap-8">
-                         <Card
-                              title="Subodh Gangaram Bawdane"
-                              description="Dr. subodh Gangaram bawdane is a MBBS doctor, he studied in DY Patil medical college kolhapur , he started his carrier as medical officer in Malgund  in Ratangiri peripheral aera.
-                  He shifted to mumbai and started clinic in  parksite vikhroli w and completed 27 years of successful practice."
-                         />
-                         <Card
-                              title="Bharti Subodh Bawdane"
-                              description="Dr. Bharti subodh bawdane is a MBBS doctor, she studied in DY Patil medical college kolhapur , she started her carrier as medical officer in khandala vatad in Ratangiri peripheral aera.
-                  She shifted to mumbai and started clinic in  parksite vikhroli w and completed 26 years of successful practice."
-                         />
+                         <Card title="Pankaj Kanji Nisar" />
                     </div>
                </>
           );

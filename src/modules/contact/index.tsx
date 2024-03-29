@@ -103,11 +103,10 @@ export const ContactModule: FC = () => {
                               <IoHomeOutline className="text-lg sm:text-2xl text-slate-400 mt-1" />
                               <div>
                                    <h4 className="text-blue-950 font-semibold text-sm sm:text-base mb-1">
-                                        OM SHANTI WELFARE TRUST
+                                        JAI SAI MITRA MANDAL
                                    </h4>
                                    <p className="text-slate-500 text-sm sm:text-base font-light">
-                                        OM SHANTI CLINIC, NEAR JANTA BAKERY,Road no. 03, ganga society, Vikhroli
-                                        parksite 400079
+                                        Trust address will here
                                    </p>
                               </div>
                          </div>
@@ -115,10 +114,10 @@ export const ContactModule: FC = () => {
                               <TfiMobile className="text-lg sm:text-2xl text-slate-400 mt-1" />
                               <div>
                                    <h4 className="text-blue-950 text-sm sm:text-base font-light mb-1">
-                                        +91 99204 41626
+                                        +91 95112 20201
                                    </h4>
                                    <p className="text-slate-500 text-sm sm:text-base font-light uppercase">
-                                        Mon to Fri 9am to 6pm
+                                        24/7 Availability
                                    </p>
                               </div>
                          </div>
@@ -126,7 +125,7 @@ export const ContactModule: FC = () => {
                               <TfiEmail className="text-lg sm:text-2xl text-slate-400 mt-1" />
                               <div>
                                    <h4 className="text-blue-950 text-sm sm:text-base font-light mb-1 underline">
-                                        omshantiwelfareturst@gmail.com
+                                        jaisaipadyatrimitramandal2k22@gmail.com
                                    </h4>
                                    <p className="text-slate-500 text-sm sm:text-base font-light">
                                         Send us your query anytime!

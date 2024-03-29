@@ -1,69 +1,61 @@
-import React, { FC } from 'react';
+import React, { FC } from "react";
 
 export const IntroductionModule: FC = () => {
+     return (
+          <div className="flex flex-col items-center justify-center w-full">
+               <div className="flex flex-col items-center justify-center w-full">
+                    <p className="text-emerald-500 text-lg sm:text-2xl font-medium tracking-wide sm:tracking-wider mb-1 sm:mb-2.5">
+                         Who Are We
+                    </p>
+                    <div className="bg-emerald-500 h-0.5 w-12 sm:w-24 mb-6" />
+                    <div className="flex flex-col items-center justify-center mb-8 sm:mb-14">
+                         <img src="/images/intro.jpg" alt="introduction-img" className="aspect-video w-full rounded" />
+                    </div>
+                    <h1 className="text-blue-950 text-xl sm:text-3xl font-semibold tracking-wide leading-normal mb-6 sm:mb-10 text-center">
+                         जय साई पदयात्री मित्र मंडळ नालासोपारा या मंडळाची स्थापना 2001 साली,{" "}
+                         <span className="text-emerald-500">श्री पंकज निसर</span> (साई सेवक) (संस्थापक) यांनी केली.
+                    </h1>
+               </div>
 
-   return (
-      <div className="flex flex-col items-center justify-center w-full">
-         <div className="flex flex-col items-center justify-center w-full">
-            <p className="text-emerald-500 text-lg sm:text-2xl font-medium tracking-wide sm:tracking-wider mb-1 sm:mb-2.5">Who Are We</p>
-            <div className="bg-emerald-500 h-0.5 w-12 sm:w-24 mb-6" />
-            <div className="flex flex-col items-center justify-center mb-8 sm:mb-14">
-               <img src="/images/intro.jpg" alt="introduction-img" className="aspect-video w-full rounded" />
-            </div>
-            <h1 className="text-blue-950 text-xl sm:text-3xl font-semibold tracking-wide leading-normal mb-6 sm:mb-10 text-center">
-               Empowering Lives: A Dual Approach to Health <br /> Implementing HIV and Cancer
-               Awareness Programs
-            </h1>
-         </div>
-
-         <div className="w-full sm:w-3/4 mb-10 sm:mb-16">
-            <p className="text-slate-500 text-sm sm:text-lg font-normal tracking-wide sm:tracking-wider mb-4 sm:mb-6 text-center">
-               In 2020, the non-profit organization "Health Empowerment Initiative" recognized the
-               urgent need for health awareness in a diverse urban community facing high rates of
-               HIV/AIDS and cancer. Determined to address both public health challenges simultaneously,
-               the organization initiated a comprehensive health awareness program. This case story
-               details the successful implementation of dual HIV and cancer awareness initiatives.
-            </p>
-         </div>
-
-         <div className="w-full sm:w-3/4 mb-4 sm:mb-8">
-            <p className="text-emerald-500 text-xl sm:text-2xl font-medium tracking-wide sm:tracking-wider mb-1 sm:mb-2.5 text-center">Vision</p>
-            <div className="flex flex-col items-center justify-center w-full">
-               <div className="bg-emerald-500 h-0.5 w-8 sm:w-12 mb-3.5 sm:mb-6" />
-            </div>
-            <p className="text-slate-500 text-sm sm:text-base font-normal tracking-wide sm:tracking-wider mb-4 sm:mb-6 text-center">
-               We envision making a significant to quality education and environment.
-            </p>
-         </div>
-
-         <div className="w-full sm:w-3/4 mb-4 sm:mb-8">
-            <p className="text-emerald-500 text-xl sm:text-2xl font-medium tracking-wide sm:tracking-wider mb-1 sm:mb-2.5 text-center">Mission</p>
-            <div className="flex flex-col items-center justify-center w-full">
-               <div className="bg-emerald-500 h-0.5 w-8 sm:w-16 mb-4 sm:mb-6" />
-            </div>
-            <p className="text-slate-500 text-sm sm:text-base font-normal tracking-wide sm:tracking-wider mb-4 sm:mb-6 text-center">
-               We strive to provide awareness, education, knowledge,
-               skills, values to the less privileged children, women and
-               youth which prepares them to compete in the
-               mainstream environment and live with dignity in the
-               society.
-            </p>
-         </div>
-
-         <div className="w-full sm:w-3/4">
-            <p className="text-emerald-500 text-xl sm:text-2xl font-medium tracking-wide sm:tracking-wider mb-1 sm:mb-2.5 text-center">Beneficiary Groups</p>
-            <div className="flex flex-col items-center justify-center w-full">
-               <div className="bg-emerald-500 h-0.5 w-28 sm:w-40 mb-4 sm:mb-6" />
-            </div>
-            <p className="text-slate-500 text-sm sm:text-base font-normal tracking-wide sm:tracking-wider mb-4 sm:mb-6 text-center">
-               The beneficiaries will be from weaker sections and propoor communities irrespective of any caste or creed and
-               the main criteria will be homelessness and financial
-               backwardness. The selection of beneficiaries will be
-               done by a committee constituted by the Foundation
-               headed by its Chairman and other members nominated
-               from inside and outside the Foundation.
-            </p>
-         </div>
-      </div>
-   );
+               <div className="w-full sm:w-3/4 mb-10 sm:mb-16">
+                    <p className="text-slate-500 text-sm sm:text-lg font-normal whitespace-pre-wrap tracking-wide sm:tracking-wider mb-4 sm:mb-6 text-center whitespace-pre-line">
+                         गुढीपाडवा ते श्री राम नवमी हा पदयात्री सोहळा उपक्रम त्यांनी चालू केला आणि त्यांच्या या
+                         उपक्रमाला अनेक साईभक्तांनी, रहिवाशांनी, कित्येक लोकांनी साथ दिले आज या मंडळाला 24 वर्षे पूर्ण
+                         होणार असून मंडळ अनेक समस्या मधून पुढे वाटचाल करीत आहे.
+                         {"\n"}
+                         सर्व अटी नियमानुसार सर्व पदयात्रिना श्री क्षेत्र शिर्डी येथे रामनवमीनिमित्त, हजारो साई भक्त
+                         चालत जाताना आपल्याला या 24 वर्षात बघायला मिळाले. अनेक संकट आले, पण त्या संकटांना तोड देत मंडळ
+                         प्रगती पथावर आहे. मंडळाचे अध्यक्ष, उपाध्यक्ष, खजिनदार आणि कार्यकरी यांच्या मार्गदर्शनाने हे
+                         मंडळ सामाजिक उपक्रम ही राबवितात. दरवर्षी अनेक नवीन साई पदयात्री यात्रेत सहभागी होतात, त्यांचे
+                         दहा दिवसाचे जेवण, नाश्ता, राहण्याची सोय मंडळतर्फे करण्यात येते.
+                         {"\n"}
+                         जय साई पदयात्री मित्र मंडळ नालासोपारा या मंडळाची स्थापना 2001 साली, श्री पंकज निसर (साई सेवक)
+                         (संस्थापक) यांनी केली. गुढीपाडवा ते श्री राम नवमी हा पदयात्री सोहळा उपक्रम त्यांनी चालू केला
+                         आणि त्यांच्या या उपक्रमाला अनेक साईभक्तांनी, रहिवाशांनी, कित्येक लोकांनी साथ दिले आज या मंडळाला
+                         24 वर्षे पूर्ण होणार असून मंडळ अनेक समस्या मधून पुढे वाटचाल करीत आहे. सर्व अटी नियमानुसार सर्व
+                         पदयात्रिना श्री क्षेत्र शिर्डी येथे रामनवमीनिमित्त, हजारो साई भक्त चालत जाताना आपल्याला या 24
+                         वर्षात बघायला मिळाले. अनेक संकट आले, पण त्या संकटांना तोड देत मंडळ प्रगती पथावर आहे. मंडळाचे
+                         अध्यक्ष, उपाध्यक्ष, खजिनदार आणि कार्यकरी यांच्या मार्गदर्शनाने हे मंडळ सामाजिक उपक्रम ही
+                         राबवितात. दरवर्षी अनेक नवीन साई पदयात्री यात्रेत सहभागी होतात, त्यांचे दहा दिवसाचे जेवण,
+                         नाश्ता, राहण्याची सोय मंडळतर्फे करण्यात येते. त्यांना चालताना अनेक त्रास होता पण मंडळाने सर्व
+                         प्रकारच्या सोयी करून ठेवले असते. त्यांना लागणाऱ्या वस्तू सोबत आणाव्यास लागतात. प्रत्येक
+                         पदयात्री रांगेत चालत असतो, साईनामाचा जप सतत मुखी ठच्चारला जातो. वेळेवर उठणे, वेळेवर नाश्ता आणि
+                         वेळेवर जेवण मंडळाकडून दिले जाते. अनेक पदयात्री बाबांच्या यात्रेला येत असतात.
+                         {"\n"}
+                         मंडळाकडून उत्तम औषधोपचार केला जातो, शिर्डी संस्था देखील सर्व साई भक्तांना मदत करत असते. जयसाई
+                         पदयात्री मित्र मंडळ हे गेली 23 वर्ष सर्व भक्तांना निस्वार्थपणे पदयात्रेत साई सेवा घडवत आहे.
+                         मंडळाचे सर्व पदाधिकारी आणि कार्यकर्ते आपापल्या परीने साई पदयात्रीचे सेवा करत असतात. मित्रांनो
+                         मंडळाचे संस्थापक श्री पंकज निसर (स्वर्गीय) यांनी राबवलेला हा उपक्रम समाजसेवा म्हणून, आज त्यांचे
+                         सहकारी राबवत आहेत. रामनवमी उत्सवानंतर हनुमान जयंतीला सांगता समारंभ आणि भंडारा मोठ्या उत्साहाने
+                         केला जातो. विभागातील रहिवाशी, पदयात्री कार्यकर्ते, इत्यादी. सर्व श्रोते मंडळी उपस्थित राहुन
+                         कार्यक्रमाची आणि मंडळाची शोभा वाढवत असतात दरवर्षी गुण्यागोविंदाने भजन, नामस्मरण घेत पदयात्री
+                         आपला सुखकर प्रवास करताना दिसतात.
+                         {"\n"}मंडळी, जयसाई पदयात्री मित्र मंडळ अनेक वर्ष, मंडळातर्फे सामाजिक तत्त्वावर सुद्धा कार्य करत
+                         आहे. मंडळाचे सर्वच कार्यकर्ते आणि पदाधिकारी खूप मेहनत घेऊन गुढीपाडवा ते श्री राम नवमी उत्सव
+                         अगदी आनंदाने साई भजन, साई नामाचा नामस्मरण घेत चालत असतात. प्रत्येक पदयात्रीवर आमचे बारकाईने
+                         लक्ष असते
+                    </p>
+               </div>
+          </div>
+     );
 };

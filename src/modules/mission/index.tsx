@@ -1,7 +1,5 @@
 import React, { FC } from "react";
-import { IoSettingsSharp } from "react-icons/io5";
 import { GiAwareness } from "react-icons/gi";
-import { BsClipboard2PlusFill } from "react-icons/bs";
 import { GiStigmata } from "react-icons/gi";
 
 import { MissionCard as Card } from "../../core/components";
@@ -12,10 +10,12 @@ export const MissionModule: FC = () => {
                <>
                     <div className="text-center">
                          <p className="text-emerald-500 text-sm sm:text-xl font-medium tracking-wide sm:tracking-wider mb-4 sm:mb-6">
-                              What We Are Doing
+                              आम्ही काय करत आहोत
                          </p>
-                         <h1 className="text-blue-950 text-3xl sm:text-5xl font-semibold tracking-wide leading-normal mb-8 sm:mb-20">
-                              We Are In A Mission To <br /> Help The Helpless
+                         <h1 className="text-blue-950 text-3xl sm:text-5xl font-semibold tracking-wide leading-normal mb-8 whitespace-pre-wrap sm:mb-20">
+                              आम्ही मिशनमध्ये आहोत
+                              {"\n"}
+                              हेल्पलेसला मदत करा
                          </h1>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-6 sm:gap-8">
